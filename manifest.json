@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Quantity",
+  "version": "1.0",
+  "description": "Calculate the Quantity required based on the max risk wanted",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [{
+    "resources": ["content.html"],
+    "matches": ["<all_urls>"]
+  }],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ]
+}

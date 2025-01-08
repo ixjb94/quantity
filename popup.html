@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quantity</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      text-align: center;
+    }
+
+    input {
+      padding: 5px;
+      margin: 10px 0;
+    }
+
+    button {
+      padding: 5px 10px;
+      background-color: unset;
+      border: 1px solid;
+    }
+
+    .container {
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <input id="accountSize" type="text" placeholder="Account Size $" />
+    <input id="leverage" type="text" placeholder="Leverage: Example 20" />
+    <input id="maxLoss" type="text" placeholder="Max Loss %" />
+    <input id="fee" type="text" placeholder="Fee %" />
+    <button id="saveButton">Save</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>

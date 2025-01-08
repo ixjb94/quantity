@@ -1,0 +1,12 @@
+{
+  "name": "@ixjb94/quantity",
+  "version": "1.0.0",
+  "description": "Calculate the Quantity required based on the max risk wanted",
+  "keywords": [],
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/ixjb94/quantity.git"
+	},
+  "author": "IX JB",
+	"license": "MIT"
+}
