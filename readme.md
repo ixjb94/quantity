@@ -4,6 +4,10 @@ Supports: Chrome, Edge, Brave, etc.
 
 You can Drag/Drop it where ever you want to.    
 
+# Dynamic Leverage
+There is also another version of this code that does the same thing but with dynamic leverage    
+[Leverage](https://github.com/ixjb94/leverage)
+
 # Example
 Quantity required for:    
 Init Capital: $100    
